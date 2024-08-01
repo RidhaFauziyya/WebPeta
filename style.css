@@ -1,0 +1,15 @@
+section{
+    padding-inline: 5rem;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+.map-container img {
+    max-width: 100%;
+}
+.map-container .marker {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
