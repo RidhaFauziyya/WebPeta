@@ -42,3 +42,8 @@ section {
     position: relative;
     z-index: 2; /* Pastikan konten berada di atas overlay */
 }
+
+.hero-content h1{
+    font-size: 5rem;
+    font-weight: bolder;
+}
