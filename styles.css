@@ -102,6 +102,11 @@ section {
     height: 50px;
 }
 
+.contain{
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
 
 @media (max-width: 768px) {
 
@@ -117,7 +122,7 @@ section {
         width: min-content;
     }
     .card{
-        width: 40%;
+        width: 150Px;
     }
     .card .card-img-top{
         margin-top: 1rem;
@@ -130,11 +135,11 @@ section {
     }
 
     .card-body h5{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .card-body h3{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
