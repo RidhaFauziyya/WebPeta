@@ -12,7 +12,7 @@ section {
     text-align: center;
 }
 .map-container img {
-    max-width: 100%;
+    max-width: 80%;
 }
 .map-container .marker {
     position: absolute;
@@ -83,7 +83,7 @@ section {
 
 .sec{
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 #potensi a{
@@ -91,6 +91,15 @@ section {
     font-weight: bolder;
     color: black;
     text-align: center;
+}
+
+.card{
+    width: 25%;
+}
+
+.icon-map{
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -106,6 +115,26 @@ section {
 
     .map{
         width: min-content;
+    }
+    .card{
+        width: 40%;
+    }
+    .card .card-img-top{
+        margin-top: 1rem;
+        width: 30%;
+        align-self: center;
+    }
+    .icon-map{
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-body h5{
+        font-size: 0.5rem;
+    }
+
+    .card-body h3{
+        font-size: 0.8rem;
     }
 }
 
