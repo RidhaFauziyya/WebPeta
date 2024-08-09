@@ -87,10 +87,22 @@ section {
 }
 
 #potensi a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
     font-size: large;
     font-weight: bolder;
     color: black;
     text-align: center;
+}
+
+.btn{
+    background-color: #575349 !important;
+    color: white !important;
+    font-size: 2rem;
+    border-radius: 15px !important; 
+    font-weight: bolder !important;
+    padding-inline: 3rem !important;
 }
 
 .card{
@@ -107,6 +119,21 @@ section {
     flex-wrap: wrap;
 }
 
+.card .card-img-top{
+    margin-top: 1rem;
+    width: 30%;
+    align-self: center;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+.modal-content {
+    width: 100%;
+}
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -121,6 +148,11 @@ section {
     .map{
         width: min-content;
     }
+
+    .btn{
+        font-size: small;
+    }
+    
     .card{
         width: 150Px;
     }
@@ -134,11 +166,11 @@ section {
         height: 30px;
     }
 
-    .card-body h5{
+    .card-body h6{
         font-size: 0.8rem;
     }
 
-    .card-body h3{
+    .card-body h5{
         font-size: 1rem;
     }
 }
