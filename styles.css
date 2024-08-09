@@ -115,7 +115,7 @@ section {
 }
 
 .contain{
-    gap: 1.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
@@ -124,15 +124,6 @@ section {
     width: 30%;
     align-self: center;
 }
-
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-.modal-content {
-    width: 100%;
-}
-}
-
 
 
 @media (max-width: 768px) {
@@ -152,7 +143,7 @@ section {
     .btn{
         font-size: small;
     }
-    
+
     .card{
         width: 150Px;
     }
@@ -160,6 +151,10 @@ section {
         margin-top: 1rem;
         width: 30%;
         align-self: center;
+    }
+
+    .contain{
+        gap: 0.5rem;
     }
     .icon-map{
         width: 30px;
