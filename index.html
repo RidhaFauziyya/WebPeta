@@ -13,36 +13,35 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top bg-white" sticky-top>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light shadow bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/logo_sendangsari.png" alt="Logo" width="80" height="80">
                 <b>Padukuhan Pereng</b>
-            </a>
-            <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init
-            data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">Beranda</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#heroCarousel">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Padukuhan</a>
+                        <a class="nav-link" href="/#kebudayaan">Kebudayaan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Potensi Padukuhan</a>
+                        <a class="nav-link" href="/#potensi">Potensi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/#location">Lokasi</a>
                     </li>
                 </ul>
             </div>
-        </div>
+         </div>  
+      </div>
     </nav>
- 
+
     <div id="heroCarousel" class="carousel slide hero" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" style="background-image: url('/foto/amonglare.webp');">
@@ -71,40 +70,46 @@
     </div>
 
     <section class="mt-4">
-        <h1 class="mb-4 text-center"><b>PETA POTENSI PADUKUHAN PERENG</b></h1>
-        <div class="d-flex justify-content-center">
-            <div class="map-container animate__animated animate__backInUp animate-on-scroll">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYgFgeuWuMcQVBgAEjvO5g6rnOGcM9t2AMsaWe_pdRH1rMQj60IgU9mFTw3b_ruksB2GRe8d0FiPCYlS30asusnbff4KAiPy62uBaN91rWt-ZnGooIpFB0J2cBGg7leec1PqXxvW_V/s1600/IMG-20180413-WA0016.jpg" alt="Map" usemap="#image-map">
+        <div class="container animate__animated animate__backInUp animate-on-scroll sec" id="kebudayaan">
+            <h2 class="display-3 text-center">Menggali Warisan Budaya</h2>
+            <div class="container-line mt-4 mb-4">
+                <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/_zEdEcxTUp0?si=2lp7Msz_69bmMcML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <p class="text-center">Wiwitan adalah tradisi syukur panen yang diwariskan turun-temurun di Padukuhan Pereng. Dalam ritual ini, warga bersama-sama memanjatkan doa, memotong padi pertama, dan menikmati hidangan tradisional di tengah sawah. Tradisi ini tidak hanya melestarikan kebudayaan, tetapi juga memperkuat kebersamaan dan semangat gotong royong di antara warga. Wiwitan, sebuah perayaan sederhana namun penuh makna, menjadi cerminan harmoni antara manusia dan alam di Padukuhan Pereng.</p>
+        </div>
 
-                <!-- Marker 1 -->
-                <a href="https://maps.app.goo.gl/5ERvDYZqLMxMRsZd7" target="_blank" class="marker" style="left: 30%; top: 40%;" data-aos="zoom-in">
-                    <img src="https://www.pngall.com/wp-content/uploads/2017/05/Map-Marker.png" alt="Marker" width="50" height="50">
-                </a>
+        <div class="container animate__animated animate__backInUp animate-on-scroll sec" id="potensi">
+            <h2 class="display-3 text-center">Potensi Yang Melimpah</h2>
+            <div class="d-flex justify-content-center container-line mt-4 mb-4">
+                <div class="map-container">
+                    <img src="https://sendangsari-kulonprogo.desa.id/desa/upload/media/wilayah%20kalurahan.jpg" alt="Peta Potensi"></img>
+                </div>
+            </div>
+            <a class="text-center" href="/potensi.html">Lihat >></a>
+        </div>
 
-                <!-- Marker 2 -->
-                <a href="https://goo.gl/maps/5q2A5X2UJYu" target="_blank" class="marker" style="left: 50%; top: 60%;" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="https://www.pngall.com/wp-content/uploads/2017/05/Map-Marker.png" alt="Marker" width="50" height="50">
-                </a>
-
-                <!-- Marker 3 -->
-                <a href="https://goo.gl/maps/example" target="_blank" class="marker" style="left: 70%; top: 80%;" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="https://www.pngall.com/wp-content/uploads/2017/05/Map-Marker.png" alt="Marker" width="50" height="50">
-                </a>
+        <div class="container animate__animated animate__backInUp animate-on-scroll sec" id="location">
+            <h2 class="display-3 text-center">Lokasi Padukuhan Pereng</h2>
+            <div class="d-flex justify-content-center container-line mt-4 mb-4">
+                <div class="map-container">
+                    <div id="googleMap">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15811.015926808646!2d110.14463914865084!3d-7.815845725275108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7afaa5212c713f%3A0xb0b1913f06ccb3b3!2sPereng%2C%20Sendangsari%2C%20Pengasih%2C%20Kulon%20Progo%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1723200163881!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="mt-4 animate__animated animate__backInUp animate-on-scroll" >
-            <h3>Daftar Potensi Padukuhan Pereng:</h3>
-            <ol>
-                <li>Rumah Bapak Dukuh Pereng</li>
-                <li>Wisata Among Lare</li>
-            </ol>
-        </div>
-
-        <map name="image-map">
-            <!-- Add areas if needed for more precision -->
-            <!-- <area shape="rect" coords="x1,y1,x2,y2" href="https://example.com" alt="Marker 1"> -->
-        </map>
     </section>
+    <div class="footer container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© KKN-PPM UGM Periode 2 Tahun 2024</span>
+          </div>
+        </footer>
+    </div>
 </body>
 </html>
